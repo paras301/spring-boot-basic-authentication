@@ -1,0 +1,5 @@
+spring:
+  api_password: testpassword
+logging:
+  level:
+    com.company: DEBUG

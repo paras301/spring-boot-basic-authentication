@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: spring-basic-auth
+  server:
+    port: 8080
+  api_password: ${sm://api-password/latest}
+logging:
+  level:
+    com.company: ERROR
